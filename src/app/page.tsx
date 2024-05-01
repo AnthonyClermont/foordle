@@ -95,7 +95,7 @@ export default function Home() {
 
   return (
     <div className='flex pt-10 flex-col gap-4 w-full justify-center items-center'>
-      <h1 className='font-bolder text-lg'>Begin by tpying a player's name into the search</h1>
+      <h1 className='font-bolder text-lg'>Begin by tpying a player&#39;s name into the search</h1>
 
       {gameOver &&
         <div className='py-6 px-10 rounded-lg my-8 bg-emerald-600'>
