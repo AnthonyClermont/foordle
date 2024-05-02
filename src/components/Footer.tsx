@@ -13,10 +13,11 @@ const icons = [
 
 export default function Footer() {
     return (
-        <footer className='absolute bottom-0 w-full bg-stone-800 p-4 flex justify-center items-center border-stone-700 border-t-[1px]'>
-            <div className='xl:w-1/2 w-full flex flex-col justify-center text-center gap-y-2'>
-                <h1 className="text-sm font-bolder text-emerald-500">Designed and Devloped by Anthony Clermont © 2024</h1>
-                <Link href={'https://playfootball.games/who-are-ya'} target="_blank" className="text-xs text-zinc-300">Thankyou playfootball.games for this game concept</Link>
+        <footer className='absolute bottom-0 w-full hidden sm:flex bg-stone-800 p-4 justify-center items-center border-stone-700 border-t-[1px]'>
+            <div className='w-1/2 flex flex-col justify-evenly items-center'>
+                <div>
+                    <h1 className="text-sm font-bolder text-emerald-500">Designed and Devloped by Anthony Clermont © 2024</h1>
+                </div>
 
                 <div className='pt-2 flex flex-col items-center justify-center gap-2'>
                     <small>made with</small>

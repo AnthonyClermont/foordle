@@ -20,7 +20,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className={SpaceGrotesk.className}>
-          <header className='xl:mx-auto max-w-6xl sm:mx-10 mx-4 flex justify-between py-8'>
+          <header className='xl:mx-auto max-w-6xl sm:mx-10 mx-4 flex justify-between pt-8'>
             <h1 className='text-2xl font-bold text-emerald-400'>Foordle ⚽</h1>
             <SignedOut>
               <SignInButton />
@@ -31,7 +31,7 @@ export default function RootLayout({
             </SignedIn>
           </header>
           
-          <main>
+          <main className=''>
             <div className='max-w-6xl flex justify-center items-center mx-auto'>
               {children}
             </div>
